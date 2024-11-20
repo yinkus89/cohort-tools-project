@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const cohortSchema = new mongoose.Schema({
   cohortSlug: { type: String, required: true, unique: true },
